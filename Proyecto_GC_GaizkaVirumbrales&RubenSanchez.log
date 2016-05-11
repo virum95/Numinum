@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.11)  11 MAY 2016 16:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.11)  11 MAY 2016 17:08
 entering extended mode
 **Proyecto_GC_GaizkaVirumbrales&RubenSanchez.tex
 (Proyecto_GC_GaizkaVirumbrales&RubenSanchez.tex
@@ -644,18 +644,18 @@ Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
 \epigraphrule=\skip52
 )
 (Proyecto_GC_GaizkaVirumbrales&RubenSanchez.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (E:\Programas\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -676,70 +676,65 @@ LaTeX Font Info:    ... okay on input line 16.
  [1
 
 {C:/Users/virum/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (8.945pt too wide) in paragraph at lines 30--31
+Overfull \hbox (8.945pt too wide) in paragraph at lines 31--32
 \OT1/cmr/m/n/10 Ser la em-presa re-cono-cida como lder en la venta y pro-ducc
 ion de elec-trodomesticos
  []
 
 
-Overfull \hbox (9.33392pt too wide) in paragraph at lines 35--36
+Overfull \hbox (9.33392pt too wide) in paragraph at lines 36--37
 \OT1/cmr/m/n/10 cal-i-dad, du-raderos y re-spetu-osos con el medio am-bi-ente q
 ue cum-plan los estandares
  []
 
 
-Overfull \hbox (20.43304pt too wide) in paragraph at lines 41--55
+Overfull \hbox (20.43304pt too wide) in paragraph at lines 42--56
  [][] 
  []
 
-[2]
+[2] <img/EntityRelation.png, id=18, 1569.865pt x 886.31125pt>
+File: img/EntityRelation.png Graphic file (type png)
 
-LaTeX Warning: Reference `fig:data' on page 3 undefined on input line 76.
+<use img/EntityRelation.png>
+Package pdftex.def Info: img/EntityRelation.png used on input line 67.
+(pdftex.def)             Requested size: 345.0pt x 194.77269pt.
 
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
-LaTeX Warning: Reference `sec:theory' on page 3 undefined on input line 79.
+ []
 
-[3] [4]
-
-LaTeX Warning: Reference `tab:widgets' on page 5 undefined on input line 108.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 125.
-
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 81.
 (E:\Programas\MiKTeX\tex\latex\base\omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
- [5]
-(Proyecto_GC_GaizkaVirumbrales&RubenSanchez.aux)
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 81.
+ [3 <./img/EntityRelation.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
-LaTeX Warning: There were undefined references.
+ []
 
- ) 
+[4] (Proyecto_GC_GaizkaVirumbrales&RubenSanchez.aux) ) 
 Here is how much of TeX's memory you used:
- 12757 strings out of 493698
- 246760 string characters out of 3147662
- 292527 words of memory out of 3000000
- 15833 multiletter control sequences out of 15000+200000
+ 12753 strings out of 493698
+ 246771 string characters out of 3147662
+ 291525 words of memory out of 3000000
+ 15826 multiletter control sequences out of 15000+200000
  9976 words of font info for 36 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 62i,11n,56p,559b,241s stack positions out of 5000i,500n,10000p,200000b,50000s
-<E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><E:/Programas/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><E:/Programas/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmbx9.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-<E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><E:/Programas/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Programas/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmr17.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><E:/Pro
-gramas/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><E:/Programas/MiKTeX/font
-s/type1/public/amsfonts/cm/cmr9.pfb><E:/Programas/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmsy10.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.
-pfb>
-Output written on Proyecto_GC_GaizkaVirumbrales&RubenSanchez.pdf (5 pages, 1840
-33 bytes).
+ 62i,11n,56p,559b,289s stack positions out of 5000i,500n,10000p,200000b,50000s
+<E:/Programas/MiKTeX/font
+s/type1/public/amsfonts/cm/cmbx10.pfb><E:/Programas/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9
+.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><E:/Programa
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><E:/Programas/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr9.pfb><E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+E:/Programas/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Proyecto_GC_GaizkaVirumbrales&RubenSanchez.pdf (4 pages, 1631
+86 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
