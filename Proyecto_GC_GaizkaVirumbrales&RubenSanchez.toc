@@ -1,9 +1,8 @@
-\select@language {english}
-\contentsline {section}{\numberline {1}Visión}{2}
-\contentsline {section}{\numberline {2}Misión}{2}
+\contentsline {section}{\numberline {1}Visi\IeC {\'o}n}{2}
+\contentsline {section}{\numberline {2}Misi\IeC {\'o}n}{2}
 \contentsline {section}{\numberline {3}Matriz DAFO}{2}
 \contentsline {section}{\numberline {4}Iniciativas de GC}{3}
-\contentsline {subsection}{\numberline {4.1}Páginas amarillas}{3}
+\contentsline {subsection}{\numberline {4.1}P\IeC {\'a}ginas amarillas}{3}
 \contentsline {subsection}{\numberline {4.2}Entrevistas a personas}{3}
 \contentsline {subsubsection}{\numberline {4.2.1}Entrevista semiestructurada}{3}
 \contentsline {subsubsection}{\numberline {4.2.2}Entrevista estructurada}{4}
