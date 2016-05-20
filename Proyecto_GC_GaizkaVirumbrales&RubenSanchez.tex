@@ -1,12 +1,18 @@
 \documentclass[a4paper]{article}
 
-\usepackage[english]{babel}
+\usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
-\usepackage{amsmath}
 \usepackage{graphicx}
+\usepackage{geometry}
 \graphicspath{ {img/} }
-\usepackage[colorinlistoftodos]{todonotes}
-\usepackage{epigraph}
+
+\renewcommand{\baselinestretch}{1.2} 
+\geometry{a4paper,
+ 	total={150mm,230mm},
+ 	left=35mm,
+ 	top=30mm,
+ }
+
 
 \title{Numinum SA}
 
@@ -21,57 +27,82 @@ La empresa Numinum quiere implementar un SGC y ha pedido al departamento de admi
 \end{abstract}
 
 
-\renewcommand{\contentsname}{Tabla de contenido}
+%\renewcommand{\contentsname}{Tabla de contenido}
 \tableofcontents
 \newpage
 
-\section{Visión}
+\section{Visión, misión y estrategia}
+
+
+\subsection{Visión}
 \label{sec:vision}
 
 Ser la empresa reconocida como líder en la venta y producción de electrodomésticos por parte de sus clientes y empleados siguiendo una filosofía de respeto hacia el medio ambiente y de compromiso social.
+\\
+\\
 
-\section{Misión}
+\subsection{Misión}
 \label{sec:mision}
 
 Contribuir al consumo de energías renovables fabricando electrodomésticos de calidad, duraderos y respetuosos con el medio ambiente que cumplan los estándares de eficiencia energética y contribuir también la igualdad dejando de lado los estándares de la sociedad y aspirando a conseguir unas técnicas de contratación basadas en factores externos al sexo, raza, religión, nacionalidad, etc. Por último, gestionar los datos de forma que creen valor para la compañía como para sus empleados.
+%
+\\
+\\
 
-\section{Matriz DAFO}
+\subsection{Estrategia}
+
+El objetivo de Numinum es posicionarse como líder nacional en la venta y producción de electrodomésticos y, además, ser una empresa respetuosa con el medio ambiente y ser un activo en la lucha por la igualdad social.
+
+En Numinum trabajamos para alcanzar el liderazgo y la confianza de los diferentes estamentos sociales ofreciendo una amplia gama de productos capaz de satisfacer las necesidades de cada uno de estos estamentos.
+
+Por lo mismo, la compañía está invirtiendo para garantizar la sustenibilidad financiera y ambiental de sus acciones y operaciones en el largo plazo, específicamente en: Capacidad, tecnologías, habilidades, personas, marcas, investigación y desarrollo.
+
+Nuestro objetivo es satisfacer las necesidades actuales y conseguir que la mujer tome un papel más importante en las generaciones futuras y que gente con menos poder adquisitivo sea capaz de optar a unos electrodomésticos de calidad y respetuosos con el medio ambiente.
+\newpage
+
+%-----------------------------
+
+\section{Iniciativas de GC}
+
+\subsection{Matriz DAFO}
 
 \begin{table}[ht!]
 	\centering
 	\begin{tabular}{ p{6cm} | p{6cm} }
 		\textbf{Fortalezas} & \textbf{Debilidades}\\
 		- Servir a diferentes estamentos de la sociedad & - No contamos el dinero suficiente para crear y mantener fábricas respetuosas \\
-		- Gran popularidad a nivel nacional & - El alto coste de fabricación genera pocos beneficios \\
+		- Gran popularidad a nivel nacional & - El alto coste de fabricación  \\
 		- Siete nuevos productos innovadores & \\
 		- Nueve calificaciones ISO & \\
 		- Sistemas de toma decisiones & \\
-		- Wikis y blogs de GC & \\\hline\\
+		- Alto uso de Wikis y blogs de GC & \\\hline\\
 		\textbf{Oportunidades} & \textbf{Amenazas} \\
-		- Subvención por respeto al Medio Ambiente & - La tendencia a la baja de los beneficios podría llevar al cierre de una sucursal o de toda la empresa\\
+		- Subvención por respeto al Medio Ambiente & - Cierre de una sucursal o de toda la empresa por la tendencia actual\\
 		- Subvención de colaboración con universidades & \\
 		- Investigación de 'la casa inteligente' & \\
 		- Capacidad de dar empleo a nuevos investigadores a bajo coste gracias a los estudiantes universitarios 
 	\end{tabular}
 \end{table}
 
-\newpage
-
-\section{Iniciativas de GC}
 
 \subsection{Páginas amarillas}
-
+\label{sec:pAmarilla}
 \textit{Elaborar unas páginas amarillas generales con el conocimiento tácito de los empleados de cada departamento y las diferentes sedes.}
 
 \begin{figure}[ht!]
-	\includegraphics[width=\textwidth]{EntityRelation.png}
+	\includegraphics[width=130mm]{EntityRelation.png}
 	\caption{Entidad relación de la BD de las páginas amarillas.}
-	\label{fig:boat1}
+	\label{fig:entiy relation}
 \end{figure}
 
+\textbf{Justificación}: La elaboración de unas páginas amarillas permitiría a la empresa acceder a los conocimientos tácitos de sus empleados con más velocidad y eficacia
 
 \subsection{Entrevistas a personas}
+\label{sec:entrevistas}
 \textit{Elegir un encargado por cada país para que actualice una DB con las normas referentes al medio ambiente en ese país, el proceso seguido para adaptarse a esa norma y que haga llegar los cambios al resto de la empresa.}
+\\
+
+\textbf{Justificación}: Realizar entrevistas a personas nos permitiría dar con la persona más 
 
 \subsubsection{Entrevista semiestructurada}
 \textit{Tema: Gestión de la normativa de una planta}\\\\
@@ -87,10 +118,10 @@ Hola [\textit{Nombre}], veo que actualmente trabajas en el dpto. de [\textit{dpt
 	\item ¿Cree que sería capaz de modificarlos eficientemente según las normas de medio ambiente?
 	\item ¿Tienes familia?
 	\begin{itemize}		
-	\item[\textbf{Si}] ¿Crees que la familia y el trabajo son aspectos separados de tu vida?
-	\item ¿En caso de tener que ir a trabajar a una planta al extranjero, te llevarias a tu familia?
-	\item[\textbf{No}] ¿Tienes pensado en tener familia a corto/medio plazo?
-	\item ¿Estarias dispuesto a llevar un seguimiento de los cambios en las leyes para poder actualizar las normas de la empresa?
+		\item[\textbf{Si}] ¿Crees que la familia y el trabajo son aspectos separados de tu vida?
+		\item ¿En caso de tener que ir a trabajar a una planta al extranjero, te llevarias a tu familia?
+		\item[\textbf{No}] ¿Tienes pensado en tener familia a corto/medio plazo?
+		\item ¿Estarias dispuesto a llevar un seguimiento de los cambios en las leyes para poder actualizar las normas de la empresa?
 	\end{itemize}
 \end{itemize}
 Un placer haber tenido esta entrevista con ud ordenaremos las ideas que hemos extraído en un documento y se las enviaremos para verificar que hemos entendido bien todos los puntos. El proceso de selección todavía no ha terminado, en cuanto llegue a su fin le llamaremos con el resultado.
@@ -98,5 +129,66 @@ Un placer haber tenido esta entrevista con ud ordenaremos las ideas que hemos ex
 \subsubsection{Entrevista estructurada}
 \textit{Tema: Gestión de la normativa de una planta}\\\\
 Hola [\textit{Nombre}], es un placer tenerle aquí otra vez
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Identificación de conocimientos}
+
+\subsection{Auditoria de conocimiento}
+
+
+% Relacionarlo con la captura del conocimiento %
+\subsection{Lista de procesos}
+
+\begin{itemize}
+	\item Procesos estratégicos
+	\begin{itemize}
+		\item[--] Medición, análisis y mejora de la cadena de producción
+		\item[--] Creación del plan estratégico
+		\item[--] Mejorar la imagen y presencia internacional
+	\end{itemize}
+	\item Procesos clave
+	\begin{itemize}
+		\item[--] Adaptarse y adelantarse a los cambios en la normativa medioambiental de cada país I+D+i\footnote{Proceso detallado: Entrevistas a personas \ref{sec:entrevistas}}
+		\item[--] Gestión optima de los almacenes de materias primas
+		\item[--] Crear fabricas y electrodomésticos respetuosos con el medio ambiente
+	\end{itemize}
+	\item Procesos soporte
+	\begin{itemize}
+		\item[--] Realizar entrevistas para la elección de la persona encargada de actualizar el documento con las normativas
+		\item[--] Elaborar las pruebas para superar las normas medioambientales
+		\item[--] Localización y fácil utilización del conocimiento que hay en la empresa\footnote{Proceso detallado: Páginas amarillas \ref{sec:pAmarilla}}
+	\end{itemize}
+\end{itemize}
+
+
+
+
+\subsection{Mapa de conocimiento}
+
+a
+
+\subsection{Fuentes externas de conocimiento}
+
+a
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Estudio de viabilidad y planificación}
+
+\subsection{Viabilidad}
+
+a
+
+\subsection{Planificación}
+
+a
+
+\section{Indicadores de Gestión del Conocimiento}
+
+a
+
+
 
 \end{document}
