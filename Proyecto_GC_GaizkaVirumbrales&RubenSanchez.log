@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.8)  21 MAY 2016 20:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.8)  22 MAY 2016 20:20
 entering extended mode
 **Proyecto_GC_GaizkaVirumbrales&RubenSanchez.tex
 (Proyecto_GC_GaizkaVirumbrales&RubenSanchez.tex
@@ -458,13 +458,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--133
 File: img/Organization.png Graphic file (type png)
 
 <use img/Organization.png>
-Package pdftex.def Info: img/Organization.png used on input line 164.
+Package pdftex.def Info: img/Organization.png used on input line 165.
 (pdftex.def)             Requested size: 369.88582pt x 165.67043pt.
 
 <img/Finances.png, id=33, 612.03656pt x 118.94438pt>
 File: img/Finances.png Graphic file (type png)
  <use img/Finances.png>
-Package pdftex.def Info: img/Finances.png used on input line 174.
+Package pdftex.def Info: img/Finances.png used on input line 175.
 (pdftex.def)             Requested size: 369.88582pt x 71.88443pt.
 
 [7 <./img/Organization.png> <./img/Finances.png>] [8] [9] [10]
@@ -492,7 +492,7 @@ ramas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Programas/MiKTeX 2
 ts/cm/cmsy10.pfb><D:/Programas/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
 .pfb>
 Output written on Proyecto_GC_GaizkaVirumbrales&RubenSanchez.pdf (10 pages, 233
-493 bytes).
+465 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
