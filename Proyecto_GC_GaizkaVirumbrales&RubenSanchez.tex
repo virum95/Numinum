@@ -1,18 +1,32 @@
-\documentclass[a4paper]{article}
+\documentclass[twoside]{article}
 
 \usepackage[spanish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{afterpage}
 \graphicspath{ {img/} }
 
+
+
+%FOOTER & HEADER
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyhead{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[RO, LE] {\thepage}
 \renewcommand{\baselinestretch}{1.2} 
 \geometry{a4paper,
  	total={150mm,230mm},
  	left=35mm,
  	top=30mm,
  }
-
+ 
+%\lhead{
+%	\begin{picture} \put{\includegraphics[width=1cm]{logo.png}} 
+%	\end{picture}
+%	}
 
 \title{Numinum SA}
 
@@ -22,15 +36,28 @@
 
 \begin{document}
 \maketitle
+\thispagestyle{empty}
+\newpage
+\newpage
+\null
+\thispagestyle{empty}
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\pagenumbering{roman}
+
 \begin{abstract}
 La empresa Numinum quiere implementar un SGC y ha pedido al departamento de administración, junto al de TI un plan de implementación para este tipo de sistema.
 \end{abstract}
 
 
 %\renewcommand{\contentsname}{Tabla de contenido}
+\setcounter{tocdepth}{2}
 \tableofcontents
 \newpage
-
+\pagenumbering{arabic}
+\setcounter{page}{1}
 \section{Visión, misión y estrategia}
 
 En esta sección se definen la visión, misión y estrategia de la empresa.
@@ -96,14 +123,18 @@ Nuestro objetivo es satisfacer las necesidades actuales y conseguir que la mujer
 	\label{fig:entiy relation}
 \end{figure}
 
-\textbf{Justificación}: La elaboración de unas páginas amarillas permitiría a la empresa acceder a los conocimientos tácitos de sus empleados con más velocidad y eficacia
+\textbf{Justificación}: La elaboración de unas páginas amarillas permitiría a la empresa acceder a los conocimientos tácitos de sus empleados con más velocidad y eficacia.
+
+\textbf{Descripción del proceso}: [Anexo] Proceso Paginas Amarillas
 
 \subsection{Entrevistas a personas}
 \label{sec:entrevistas}
 \textit{Elegir un encargado por cada país para que actualice una DB con las normas referentes al medio ambiente en ese país, el proceso seguido para adaptarse a esa norma y que haga llegar los cambios al resto de la empresa.}
 \\
 
-\textbf{Justificación}: Realizar entrevistas a personas nos permitiría dar con la persona más 
+\textbf{Justificación}: Realizar entrevistas a personas nos permitiría dar con la persona más .
+
+\textbf{Descripción del proceso}: [Anexo] Proceso Entrevistas
 
 \subsubsection{Entrevista semiestructurada}
 \textit{Tema: Gestión de la normativa de una planta}\\\\
@@ -248,7 +279,10 @@ a
 
 \subsection{Fuentes externas de conocimiento}
 
-a
+Para nuestros procesos, la principal fuente de conocimiento externo es el propio gobierno y parlamento (o la institución encargada de hacer las leyes en ese país). Estar al tanto de los cambios en lo referente al medio ambiente es primordial para que nuestras fabricas cumplan con todos los estándares ecológicos. \par
+Ademas de eso, nuestros clientes y afiliados de ventas nos ofrecen una visión de los productos que los integrantes de la empresa somos incapaces de ver. El feedback que nos ofrecen sobre fallos en los productos, posibles mejoras o los puntos mas fuertes son para Numinum SA, sin lugar a dudas, una valiosa fuente de información.\par
+Nuestros proveedores son uno con el departamento industrial. El intercambio constante de información entre ambas partes permite mejorar cada electrodoméstico y reducir los costes de fabricación.\par
+En Numinum también seguimos muy de cerca lo que hace nuestra competencia, ya que cualquier avance que hacen ellos, por muy minúsculo que sea, puede ser una mejora vital para nosotros.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -276,9 +310,65 @@ Las iniciativas propuestas, sus correspondientes implantaciones y estructuras ti
 
 a
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Infraestructura del conocimiento}
+
+\subsection{Equipo de GC}
+
+El equipo de la Gestión del Conocimiento tendrá varios integrantes. Todos de ellos, menos el líder, tendrán a la vez otro empleo en la empresa.
+\begin{itemize}
+	\item Líder: Esta persona liderará el equipo de Gestión de Conocimiento y llevara un seguimiento de las iniciativas y procesos que tengan que ver con ella. Se reunirá una vez por semana con los demás integrantes del equipo y llevara la orden del día.
+	
+	\item Champion: La persona encargada de motivar a los demás empleados de la empresa para que utilicen los procesos de la Gestión del Conocimiento. Sera una persona social, con don de gentes, que este bien vista por todos los empleados, por lo tanto optaremos por elegir a un miembro actual. Su aportación sera vital para el buen funcionamiento de la empresa.
+	
+	\item Equipo de Informática: Este equipo estará formado por los expertos en informática que lideraran los desarrollos de las estructuras técnicas de las iniciativas propuestas. Planificaran los proyectos con la metodología SCRUM y harán uso de las herramientas mas avanzadas de codificación y creación de software.
+	
+	\item Equipo de RRHH:Este equipo estará formado por los expertos en RRHH que lideraran los procesos de entrevistado y selección de personal para las iniciativas propuestas.
+\end{itemize}
+
+
+\subsection{Estrategias para la captura del conocimiento}
+
+
+
+
+
+\subsection{Diseño de documentos}
+
+ Todos los documentos en Numinum tendrán:
+ \begin{itemize}
+ 	\item  El logo de la empresa arriba a la izquierda de la primera pagina
+	\item La fecha en la que ese documento fue creado y la fecha en la que fue actualizado por ultima vez. (Si el documento no se ha actualizado desde su creación, será suficiente con poner una fecha)
+	\item  En caso de que otra organización haya contribuido a la creación del documento, su logo se situara arriba a la derecha. Siempre tendremos que contar con la autorización de esa organización para poner el logo.
+	\item Si mas de una organización ha participado, se les mencionara en la primera pagina y en la ultima, apareciendo aqui junto a su logo.
+	\item El titulo del documento ira siempre centrado y con un tamaño de fuente notablemente superior al resto (nunca menor de 28 puntos)
+	\item El autor o los autores irán inmediatamente debajo del titulo
+	\item Cada nivel de encabezado tiene que ser al menos 3 puntos superior que el nivel inferior
+	\item El tamaño de la fuente no sera nunca menor de 11 puntos
+	\item  El pie de pagina presentara el numero de pagina actual abajo a la izquierda en las paginas pares, y abajo a la derecha en las impares
+	\item  Los margenes del documento deberán ser de alrededor de 2,5cms
+	
+ \end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Indicadores de Gestión del Conocimiento}
 
 a
+
+\section{Plan para el cambio en la cultura de la Gestión del Conocimiento}
+
+Para el cambio en la cultura de la empresa frente a la Gestión del Conocimiento tenemos pensado llevar a cabo unas cuantas iniciativas que dotaran a la empresa y a sus empleados de mas sensibilidad sobre esta filosofía.
+
+\subsection{Reuniones informativas y cursos}
+
+Al comienzo de las iniciativas nombradas anteriormente haremos una sesión informativa con los lideres de los departamentos para que sean ellos los primeros en entender como funcionaran estas iniciativas y los sistemas que vamos a explicar a posteriori. Tras esto los lideres recibirán un curso de como motivar y enseñar a sus empleados a gestionar el conocimiento. \par
+Mas tarde estos lideres tendrán una reunión con los empleados de su departamento para aplicar lo aprendido en el curso y poder enseñar y motivar a su personal. También tendrán una reunión especifica para explicar el funcionamiento y los procesos de las iniciativas del conocimiento propuestas a aquellos que se vean implicados.
+
+\subsection{Gamificación y sistema de puntos}
+
+Dotaremos a los sistemas de comparticion de la información de un sistema de gamificacion en el que los empleados competirán por ser el que mas puntos obtiene. El tema del juego sera la ecología. Cuantos mas puntos obtengas mas crecerá tu bosque y mas fauna y flora tendrá. El mejor bosque estará expuesto en algunas de las pantallas de la fabrica y oficinas. El juego nos ofrecerá misiones (compartir el conocimiento de diferentes maneras) con las que conseguiremos puntos extras y escalar en la clasificación.\par
+Pero esto no se queda aquí, los puntos que los empleados ganen podrán canjearlos por descuentos en los productos de la empresa,  vales para productos/servicios en otras empresas afiliadas e incluso productos de las maquinas expendedoras dentro de la empresa.
 
 
 
